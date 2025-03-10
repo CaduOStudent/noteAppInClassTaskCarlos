@@ -47,3 +47,8 @@ addTodoBtn.addEventListener('click', () => {
     todoInput.value = '';
   }
 });
+
+//Set localstorage and retrive from it
+
+localStorage.setItem('notes', JSON.stringify(notesArray));
+const savedNotes = JSON.parse(localStorage.getItem('notes'));
