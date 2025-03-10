@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  
+  section {
+    margin-bottom: 2em;
+  }
+  
+  #notes-container,
+  #todo-container {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 1em;
+    margin-top: 1em;
+    min-height: 100px;
+  }
+  
